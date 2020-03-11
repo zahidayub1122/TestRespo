@@ -1,0 +1,15 @@
+.modal1 {
+    margin-top: 70%;
+}
+
+body
+ {
+    background-color: chartreuse;
+}
+ @media screen and (min-width : 800px){
+    body{
+        background-color: red;
+        color: blue;
+    }  
+    
+ }

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html ng-app="t2">
+
+<head>
+    <!--Remember Rememebr - Angular.min.js file first likhni ha -->
+    <script src="js/Angular.min.js"></script>
+    <!-- <script src="js/pract3.js"></script> -->
+    <!-- <script src="js/PractAngular.js"></script> -->
+    <script src="js/Pract2.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <style>
+        .h1 {
+            background-color: aliceblue;
+            color: black;
+            /* top: 0;  */
+            position: fixed;
+            /* Position the navbar at the top of the page */
+        }
+        
+        .list {
+            background-color: white
+        }
+    </style>
+</head>a
+
+<body>
+
+    <!-- Form Validation Practice  -->
+    <!-- <form ng-app = "test1" ng-controller ="myController1" name="myForm" novalidate>
+            <p>UserName:<br>
+            <input type ="text" name="name1" ng-model = "name1" placeholder="user Name" required/>
+            <span style="color:red" ng-show = "myForm.name1.$dirty && myForm.name1.$invalid"> 
+            <span ng-show ="myForm.name1.$error.required">User Name is Required</span>
+            </span>
+            </p>
+            <p>Email<br>
+                <input type="email" name="email" ng-model = "email" required>
+                <span style="color: red;"ng-show ="myForm.email.$dirty && myForm.email.$invalid">Email Is Required</span>
+                <span ng-show = "myForm.email.$error.email">Invalid Email Address</span>
+            </p>
+            <p>
+            <input type="submit"ng-disabled = "myForm.email.$dirty && myForm.email.$invalid">
+        </p>
+            </form> -->
+
+    <!-- <a href="#!/">Home</a>
+        <a href="#!pu">Pu</a> -->
+
+    <!-- ng-Show Practice Purpose  -->
+    <div ng-controller="myController1">
+        <!-- <button type="button"ng-click ="toggle()">Click Me</button>
+            <div class="cls1" ng-show = "show =='msg1'">This is messag1</div>
+            <div class="cls1" ng-show ="show =='msg2'">This is messag2</div>        -->
+    </div>
+
+    <div ng-view></div>
+
+    <!-- For  Routing Purpose  -->
+
+    <!-- <p><a href="/">Main</a></p>
+        <a href="#!red">Red</a>
+        <a href="#!green">Green</a>
+        <a href="#!blue">Blue</a>
+        <div ng-view>
+        </div>
+
+        <br> -->
+
+    <!-- .................................................. -->
+
+    <!-- Not Done -->
+    <!-- <div ng-controller = "Test">
+<button ng-click = "Php()" >PHP</button> 
+<button ng-click = "React()">React</button> 
+<button ng-click = "Js()">Jquery</button>
+<button ng-click = "Jquery()" >Jquer</button>
+<p>{{"The button is :"+ message}}</p>
+</div> -->
+
+    <hr>
+
+    <!-- This is for API testing 
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <h1>Data From Api </h1>
+        </nav>
+         <div ng-controller = "myController">
+            <ul class="list-group"  ng-repeat ="x in lhr">
+
+                <li class="list-group-item">{{x.title}}</li>
+              </ul>
+         </div> -->
+
+</body>
+
+</html>

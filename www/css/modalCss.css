@@ -1,0 +1,84 @@
+/* .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    width: 50%;
+  }
+   */
+body{
+      /* background-color: #bdb9b9; */
+      background-color:transparent;
+  }
+  p{
+      margin-top: 25px;
+  }
+
+.container textarea{
+      padding: 20px;
+      background-color: transparent;
+  }
+
+.container textarea::placeholder {
+    /* color:#4d4c4f; */
+    /* color: #9c8ae3 ; */
+    /* color: #404045; */
+    color:#6272a8;
+    font-size: 1.2em;
+    font-style: italic;
+  }
+
+.jumbotron
+{
+    background-color:transparent;
+
+   /* background-color:#bdb9b9; */
+
+    height: 100%;
+    width: 100%;
+
+}
+.container #para1{
+    /* color: #9c8ae3; */
+    /* color: #404045; */
+    /* color: #404045; */
+    color:#6272a8;
+    margin-top: 25px;
+    font-size: 1.55em;
+    background-color:transparent;
+    padding-left: 13px;
+    /* font-style:italic;     */
+}
+.container #para1 span {
+    margin-left:110px;
+    font-style:none;    
+
+    
+}
+.container p.dashed {
+
+       /* border-bottom: 5px dashed #9c8ae3 ; */
+       /* border-bottom: 2px dashed #1a1a21; */
+
+       border-bottom: 3px dashed #6272a8;
+       
+       width: 99%
+       /* border-spacing: 15px 50px; */
+}
+.container ul{
+    /* background-color: #bdb9b9; */
+    background-color:transparent;
+    /* border:0px 0px 0px 0px;      Not Working */
+}
+
+.container ul li {
+    /* color: #9c8ae3; */
+    /* color: #404045; */
+    color:#6272a8;
+    font-size: 1.43em;
+    /* margin: 10 10 20px 0; */
+    border:none;
+   
+}
+
+  
